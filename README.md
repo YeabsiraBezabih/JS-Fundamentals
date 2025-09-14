@@ -89,6 +89,13 @@ At the end of this project, you will be able to explain:
 - Adds two integers passed as command line arguments
 - Uses function prototype as specified
 
+### 10. Factorial #advanced
+**File:** `10-factorial.js`
+- Computes and prints factorial of given integer
+- Uses recursive function implementation
+- Factorial of NaN is 1
+- Handles edge cases appropriately
+
 ## Usage
 
 Run any script using Node.js:
@@ -104,6 +111,7 @@ node 6-multi_languages_loop.js
 node 7-multi_c.js 5
 node 8-square.js 3
 node 9-add.js 10 20
+node 10-factorial.js 5
 ```
 
 ## Examples
@@ -135,13 +143,25 @@ XX
 
 $ node 9-add.js 5 7
 12
+
+$ node 10-factorial.js
+1
+
+$ node 10-factorial.js 3
+6
+
+$ node 10-factorial.js 5
+120
+
+$ node 10-factorial.js 10
+3628800
 ```
 
 ## Repository
 
 - **GitHub repository:** JS-Fundamentals
 - **Directory:** Fundamentals of JavaScript
-- **Files:** 0-javascript_is_amazing.js through 9-add.js
+- **Files:** 0-javascript_is_amazing.js through 10-factorial.js
 
 ## Author
 
